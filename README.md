@@ -11,3 +11,5 @@ The binary file is included for those who do not have a test file to work with. 
 NASM : nasm main.asm -o main.bin  
 FASM : fasm main.asm  
   
+Now for the Bad news for linux users : Unfortunately, linux doesn't have ASCII support AT ALL. Not even XTERM can show Extended ASCII. Only way to show the extended ASCII text ( 128 - 255 ) is to add UNICODE support. And that is a lot more code then is worth it for this test demo. This is why I prefer Windows for my programming OS. It has everything needed. Linux does not.  
+  
